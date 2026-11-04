@@ -16,7 +16,9 @@ class Database:
             user=os.getenv("USER"),
             port=os.getenv("PORT"),
             password=os.getenv("PASSWORD"),
-            database=os.getenv("DB")
+            database=os.getenv("DB"),
+
+            ssl_disabled=False
         )
 
             
