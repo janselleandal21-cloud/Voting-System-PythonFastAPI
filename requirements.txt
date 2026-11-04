@@ -3,3 +3,6 @@ uvicorn
 python-dotenv
 mysql-connector-python
 python-multipart
+PyJWT
+APIRouter
+get_current_user
